@@ -46,5 +46,6 @@ describe("App", () => {
       ],
     ]);
     expect(wrapper.text().includes("lala")).toEqual(true);
+    expect(wrapper.text().includes("Finanzly")).toEqual(true);
   });
 });
